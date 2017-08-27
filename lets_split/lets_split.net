@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split.sch)
-    (date "Sun 27 Aug 2017 23:00:08 JST")
+    (date "Mon 28 Aug 2017 02:02:10 JST")
     (tool "Eeschema (2017-08-27 revision e3c64f1)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -329,7 +329,7 @@
       (tstamp 57D4A13F))
     (comp (ref R2)
       (value R)
-      (footprint footprint:RESISTOR)
+      (footprint local:RESISTOR)
       (libsource (lib lets_split-cache) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D4D4E2))
@@ -347,7 +347,7 @@
       (tstamp 57D52188))
     (comp (ref R1)
       (value R)
-      (footprint footprint:RESISTOR)
+      (footprint local:RESISTOR)
       (libsource (lib lets_split-cache) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D527EC))
