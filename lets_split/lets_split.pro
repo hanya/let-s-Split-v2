@@ -1,4 +1,4 @@
-update=9/9/2016 10:57:18 PM
+update=Mon 28 Aug 2017 20:24:04 JST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=component
+LibName31=promicro
