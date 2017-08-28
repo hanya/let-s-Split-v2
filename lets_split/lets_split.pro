@@ -1,4 +1,4 @@
-update=Mon 28 Aug 2017 20:24:04 JST
+update=Mon 28 Aug 2017 22:40:56 JST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=component
 LibName31=promicro
+LibName32=local
