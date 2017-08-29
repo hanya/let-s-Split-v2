@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split.sch)
-    (date "Tue 29 Aug 2017 17:52:01 JST")
+    (date "Tue 29 Aug 2017 18:25:50 JST")
     (tool "Eeschema (2017-08-27 revision e3c64f1)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -311,13 +311,13 @@
       (tstamp 57D49FBD))
     (comp (ref J1)
       (value 3PIN)
-      (footprint prettylib:jumper)
+      (footprint local:SMD_JUMPER_2)
       (libsource (lib local) (part 3PIN))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D4A05A))
     (comp (ref J3)
       (value 3PIN)
-      (footprint prettylib:jumper)
+      (footprint local:SMD_JUMPER_2)
       (libsource (lib local) (part 3PIN))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D4A13F))
@@ -520,12 +520,12 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical local)
-      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/local.lib))
     (library (logical promicro)
       (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/promicro.lib))
     (library (logical lets_split-cache)
-      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split-cache.lib)))
+      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split-cache.lib))
+    (library (logical local)
+      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/local.lib)))
   (nets
     (net (code 1) (name row2)
       (node (ref U1) (pin 11))
