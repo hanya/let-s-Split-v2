@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split.sch)
-    (date "Tue 29 Aug 2017 21:17:53 JST")
+    (date "Tue 29 Aug 2017 23:13:20 JST")
     (tool "Eeschema (2017-08-27 revision e3c64f1)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -416,7 +416,31 @@
       (footprint local:CON1_SMD_BOTH)
       (libsource (lib local) (part 1PIN))
       (sheetpath (names /) (tstamps /))
-      (tstamp 59A52C6D)))
+      (tstamp 59A52C6D))
+    (comp (ref M1)
+      (value FIDUCIAL)
+      (footprint local:Fiducial_Mark)
+      (libsource (lib local) (part FIDUCIAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59A57C29))
+    (comp (ref M2)
+      (value FIDUCIAL)
+      (footprint local:Fiducial_Mark)
+      (libsource (lib local) (part FIDUCIAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59A58677))
+    (comp (ref M3)
+      (value FIDUCIAL)
+      (footprint local:Fiducial_Mark)
+      (libsource (lib local) (part FIDUCIAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59A58764))
+    (comp (ref M4)
+      (value FIDUCIAL)
+      (footprint local:Fiducial_Mark)
+      (libsource (lib local) (part FIDUCIAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59A58854)))
   (libparts
     (libpart (lib local) (part 1PIN)
       (fields
@@ -456,6 +480,10 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
+    (libpart (lib local) (part FIDUCIAL)
+      (fields
+        (field (name Reference) M)
+        (field (name Value) FIDUCIAL)))
     (libpart (lib local) (part HOLE)
       (fields
         (field (name Reference) U)
