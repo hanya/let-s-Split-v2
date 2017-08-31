@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split.sch)
-    (date "Wed 30 Aug 2017 20:10:43 JST")
+    (date "Wed 30 Aug 2017 20:40:35 JST")
     (tool "Eeschema (2017-08-27 revision e3c64f1)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -377,7 +377,7 @@
       (tstamp 59A40F45))
     (comp (ref RSW1)
       (value SW_PUSH)
-      (footprint local:SKHL)
+      (footprint local:TACTILE_COMPATIBLE)
       (libsource (lib lets_split-cache) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 59A4BD25))
@@ -518,10 +518,10 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical promicro)
-      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/promicro.lib))
     (library (logical lets_split-cache)
       (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/lets_split-cache.lib))
+    (library (logical promicro)
+      (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/promicro.lib))
     (library (logical local)
       (uri /home/asuka/Downloads/let-s-Split-v2/lets_split/local.lib)))
   (nets
